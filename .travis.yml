@@ -1,6 +1,6 @@
 env:
    global:
-     - CONAN_REFERENCE: "libjpeg-turbo/1.5.1"
+     - CONAN_REFERENCE: "libjpeg-turbo/1.5.2"
      - CONAN_CHANNEL: "stable"
      - CONAN_UPLOAD: "https://api.bintray.com/conan/zamazan4ik/conan"
      - CONAN_STABLE_BRANCH_PATTERN: "release/*"

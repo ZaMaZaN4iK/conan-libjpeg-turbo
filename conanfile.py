@@ -7,7 +7,7 @@ from conans import CMake
 
 class LibJpegTurboConan(ConanFile):
     name = "libjpeg-turbo"
-    version = "1.5.1"
+    version = "1.5.2"
     ZIP_FOLDER_NAME = "%s-%s" % (name, version)
     generators = "cmake", "txt"
     settings = "os", "arch", "compiler", "build_type"
