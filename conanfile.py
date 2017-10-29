@@ -14,7 +14,7 @@ class LibJpegTurboConan(ConanFile):
     options = {"shared": [True, False], "fPIC": [True, False], "SSE": [True, False]}
     default_options = "shared=False", "fPIC=True", "SSE=True"
     exports = "CMakeLists.txt"
-    url="http://github.com/lasote/libjpeg-turbo"
+    url="http://github.com/ZaMaZaN4iK/conan-libjpeg-turbo"
     license="https://github.com/libjpeg-turbo/libjpeg-turbo/blob/%s/LICENSE.txt" % version
     
     def config(self):
